@@ -1,0 +1,25 @@
+{
+  "name": "cf-bestip-panel",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler pages dev . --port 8788 --compatibility-date=2026-06-01",
+    "check": "node --check local-server.js && node --check functions/api/_data.js && node --check functions/api/_config.js && node --check functions/api/_http.js && node --check functions/api/config.js && node --check functions/api/ips.js && node --check functions/api/edge_ips.js && node --check functions/api/ip-check.js && node --check functions/api/_health.js && node --check functions/api/source-health.js && node --check functions/api/source-check.js && node --check functions/api/export-all.js && node --check functions/api/self-test.js && node --check assets/app.js && node --check functions/api/artifacts.js && node --check functions/api/artifact.js && node --check functions/api/cache-clear.js && node --check functions/api/cache-status.js && node --check functions/api/_cache.js && node --check scripts/build-dataset.mjs && node --check functions/api/build-dataset.js && node --check functions/api/source-raw.js && node --check functions/api/source-parse.js && node --check scripts/predeploy-check.mjs && node --check scripts/unit-test.mjs && node --check scripts/lib/address.mjs && node --check scripts/address-unit-test.mjs && node --check scripts/lib/build-output.mjs && node --check scripts/build-output-unit-test.mjs && node --check scripts/lib/source-fetch.mjs && node --check scripts/source-fetch-unit-test.mjs && node --check scripts/test-report.mjs && node --check scripts/ui-smoke-test.mjs && node --check assets/js/constants.js && node --check assets/js/dom.js && node --check assets/js/api-client.js && node --check assets/js/download.js && node --check assets/js/config-validator.js && node --check scripts/config-validator-unit-test.mjs && node --check assets/js/config-diff.js && node --check scripts/config-diff-unit-test.mjs",
+    "start": "node local-server.js",
+    "test": "node scripts/self-test.mjs",
+    "build:dataset": "node scripts/build-dataset.mjs",
+    "predeploy": "npm run check && npm run unit && npm test && npm run ui-smoke && npm run report && node scripts/predeploy-check.mjs",
+    "unit": "node scripts/unit-test.mjs && node scripts/address-unit-test.mjs && node scripts/build-output-unit-test.mjs && node scripts/source-fetch-unit-test.mjs && node scripts/config-validator-unit-test.mjs && node scripts/config-diff-unit-test.mjs",
+    "address-unit": "node scripts/address-unit-test.mjs",
+    "build-output-unit": "node scripts/build-output-unit-test.mjs",
+    "source-fetch-unit": "node scripts/source-fetch-unit-test.mjs",
+    "report": "node scripts/test-report.mjs",
+    "ui-smoke": "node scripts/ui-smoke-test.mjs",
+    "config-validator-unit": "node scripts/config-validator-unit-test.mjs",
+    "config-diff-unit": "node scripts/config-diff-unit-test.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "latest"
+  }
+}

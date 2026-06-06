@@ -1,0 +1,597 @@
+{
+  "generatedAt": "2026-06-06T20:51:11.259Z",
+  "durationMs": 8160,
+  "summary": {
+    "sources": 73,
+    "ok": 73,
+    "failed": 0,
+    "rawLines": 54160,
+    "deduped": 39890
+  },
+  "sources": [
+    {
+      "groupName": "天城优选",
+      "id": "优选1",
+      "url": "https://sub.680660.xyz/sub?host=snippts.fuck.xyz&sub=vl.cm.soso.edu.kg&subapi=https%3A%2F%2Fsubapi.cmliussss.net&uuid=xiexieni-520e-66a7-8da9-20251103b8ff",
+      "ok": true,
+      "ms": 1604,
+      "count": 53
+    },
+    {
+      "groupName": "天城优选",
+      "id": "优选2",
+      "url": "https://sub.680660.xyz/sub?host=snippts.fuck.xyz&sub=vloo.cm.soso.edu.kg&subapi=https%3A%2F%2Fsubapi.cmliussss.net&uuid=xiexieni-520e-66a7-8da9-20251103b8ff",
+      "ok": true,
+      "ms": 1117,
+      "count": 58
+    },
+    {
+      "groupName": "乌鸦优选",
+      "id": "HK",
+      "url": "https://ddx.snu.cc/HK",
+      "ok": true,
+      "ms": 1186,
+      "count": 978
+    },
+    {
+      "groupName": "乌鸦优选",
+      "id": "JP",
+      "url": "https://ddx.snu.cc/JP",
+      "ok": true,
+      "ms": 1239,
+      "count": 1425
+    },
+    {
+      "groupName": "乌鸦优选",
+      "id": "KR",
+      "url": "https://ddx.snu.cc/KR",
+      "ok": true,
+      "ms": 1456,
+      "count": 2041
+    },
+    {
+      "groupName": "乌鸦优选",
+      "id": "SG",
+      "url": "https://ddx.snu.cc/SG",
+      "ok": true,
+      "ms": 1290,
+      "count": 1316
+    },
+    {
+      "groupName": "乌鸦优选",
+      "id": "TW",
+      "url": "https://ddx.snu.cc/TW",
+      "ok": true,
+      "ms": 1205,
+      "count": 533
+    },
+    {
+      "groupName": "乌鸦优选",
+      "id": "US",
+      "url": "https://ddx.snu.cc/US",
+      "ok": true,
+      "ms": 1457,
+      "count": 3017
+    },
+    {
+      "groupName": "优选合集",
+      "id": "danfeng",
+      "url": "https://sub.danfeng.eu.org/sub?uuid=26524cce-d514-4014-a426-365fb266a14d&encryption=none&security=tls&sni=be3noxe89ev.sh21.eu.org&fp=chrome&alpn=http%2F1.1%0A&insecure=0&allowInsecure=0&ech=encryptedsni.com%2Bhttps%3A%2F%2Fdoh.443888.xyz%2Fdanfeng&type=ws&host=be3noxe89ev.sh21.eu.org&path=%2Fdanfeng%3Fed%3D2560",
+      "ok": true,
+      "ms": 1751,
+      "count": 30
+    },
+    {
+      "groupName": "优选合集",
+      "id": "JZ",
+      "url": "https://raw.githubusercontent.com/HandsomeMJZ/cfip/refs/heads/main/best_ips.txt",
+      "ok": true,
+      "ms": 1120,
+      "count": 47
+    },
+    {
+      "groupName": "优选合集",
+      "id": "mingyu",
+      "url": "https://raw.githubusercontent.com/ymyuuu/IPDB/refs/heads/main/BestCF/bestcfv4.txt",
+      "ok": true,
+      "ms": 1034,
+      "count": 10
+    },
+    {
+      "groupName": "优选合集",
+      "id": "Moist_R",
+      "url": "https://sub.680660.xyz/sub?host=snippts.fuck.xyz&sub=owo.o00o.ooo&subapi=https%3A%2F%2Fsubapi.cmliussss.net&uuid=xiexieni-520e-66a7-8da9-20251103b8ff",
+      "ok": true,
+      "ms": 388,
+      "count": 38
+    },
+    {
+      "groupName": "优选合集",
+      "id": "xinyitang",
+      "url": "https://jkahdoa88.fyut.660696.xyz/sub?token=c389a338634deda44468006ce66322d6",
+      "ok": true,
+      "ms": 1080,
+      "count": 15
+    },
+    {
+      "groupName": "优选域名",
+      "id": "优选域名",
+      "url": "https://raw.githubusercontent.com/ya950/open-my/refs/heads/main/glasspanel/yxyuming",
+      "ok": true,
+      "ms": 1029,
+      "count": 28
+    },
+    {
+      "groupName": "BestCF CIDR/IP库",
+      "id": "Cloudflare IPv4",
+      "url": "https://www.cloudflare.com/ips-v4",
+      "ok": true,
+      "ms": 1033,
+      "count": 15
+    },
+    {
+      "groupName": "BestCF CIDR/IP库",
+      "id": "Cloudflare IPv6",
+      "url": "https://www.cloudflare.com/ips-v6",
+      "ok": true,
+      "ms": 1021,
+      "count": 7
+    },
+    {
+      "groupName": "BestCF CIDR/IP库",
+      "id": "CM IP库 TXT",
+      "url": "https://zip.cm.edu.kg/all.txt",
+      "ok": true,
+      "ms": 1486,
+      "count": 16013
+    },
+    {
+      "groupName": "BestCF CIDR/IP库",
+      "id": "Mia IP库",
+      "url": "https://countrymerge.pages.dev/all.txt",
+      "ok": true,
+      "ms": 1662,
+      "count": 20419
+    },
+    {
+      "groupName": "BestCF CIDR/IP库",
+      "id": "WARP 443 IP库",
+      "url": "https://bestcf.pages.dev/WARP/WARP-MASQUE-IPs-443.txt",
+      "ok": true,
+      "ms": 278,
+      "count": 2048
+    },
+    {
+      "groupName": "BestCF CIDR/IP库",
+      "id": "WARP 8443 IP库",
+      "url": "https://bestcf.pages.dev/WARP/WARP-MASQUE-IPs-8443.txt",
+      "ok": true,
+      "ms": 266,
+      "count": 2048
+    },
+    {
+      "groupName": "BestCF CIDR/IP库",
+      "id": "WARP MASQUE CIDR",
+      "url": "https://bestcf.pages.dev/CIDR/WARP-MASQUE-CIDRs.txt",
+      "ok": true,
+      "ms": 305,
+      "count": 10
+    },
+    {
+      "groupName": "BestCF CIDR/IP库",
+      "id": "ZXDL成功段",
+      "url": "https://bestcf.pages.dev/CIDR/success.txt",
+      "ok": true,
+      "ms": 225,
+      "count": 74
+    },
+    {
+      "groupName": "BestCF CIDR/IP库",
+      "id": "ZXDL合集段",
+      "url": "https://bestcf.pages.dev/CIDR/all.txt",
+      "ok": true,
+      "ms": 247,
+      "count": 18
+    },
+    {
+      "groupName": "BestCF ProxyIP",
+      "id": "MingYu BestProxy",
+      "url": "https://ipdb.api.030101.xyz/?type=bestproxy",
+      "ok": true,
+      "ms": 977,
+      "count": 10
+    },
+    {
+      "groupName": "BestCF ProxyIP",
+      "id": "Xgonce ProxyIP",
+      "url": "https://raw.githubusercontent.com/xgonce/Cloudflare_IP/refs/heads/main/result.csv",
+      "ok": true,
+      "ms": 404,
+      "count": 1901
+    },
+    {
+      "groupName": "BestCF随机优选",
+      "id": "电信随机50",
+      "url": "https://090227.pages.dev/bestcf?isp=ct&ips=50",
+      "ok": true,
+      "ms": 1190,
+      "count": 52
+    },
+    {
+      "groupName": "BestCF随机优选",
+      "id": "联通随机50",
+      "url": "https://090227.pages.dev/bestcf?isp=cu&ips=50",
+      "ok": true,
+      "ms": 1170,
+      "count": 52
+    },
+    {
+      "groupName": "BestCF随机优选",
+      "id": "三网随机20",
+      "url": "https://090227.pages.dev/bestcf?isp=all&ips=20",
+      "ok": true,
+      "ms": 997,
+      "count": 62
+    },
+    {
+      "groupName": "BestCF随机优选",
+      "id": "随机104常用",
+      "url": "https://randomip.pages.dev/?c=104.16.0.0/12&n=50&p=random",
+      "ok": true,
+      "ms": 1097,
+      "count": 50
+    },
+    {
+      "groupName": "BestCF随机优选",
+      "id": "随机188常用",
+      "url": "https://randomip.pages.dev/?c=188.114.96.0/22&n=50&p=random",
+      "ok": true,
+      "ms": 1041,
+      "count": 50
+    },
+    {
+      "groupName": "BestCF随机优选",
+      "id": "移动随机50",
+      "url": "https://090227.pages.dev/bestcf?isp=cmcc&ips=50",
+      "ok": true,
+      "ms": 1138,
+      "count": 52
+    },
+    {
+      "groupName": "BestCF随机优选",
+      "id": "WARP核心50",
+      "url": "https://warp-masque-bestip.pages.dev/?ips=50&level=p0&port=random",
+      "ok": true,
+      "ms": 1118,
+      "count": 52
+    },
+    {
+      "groupName": "BestCF随机优选",
+      "id": "WARP通用50",
+      "url": "https://warp-masque-bestip.pages.dev/?ips=50&level=all&port=random",
+      "ok": true,
+      "ms": 1022,
+      "count": 52
+    },
+    {
+      "groupName": "BestCF优选域名",
+      "id": "高访问量域名",
+      "url": "https://bestcf.pages.dev/domain/Domain-TOP.txt",
+      "ok": true,
+      "ms": 270,
+      "count": 305
+    },
+    {
+      "groupName": "BestCF优选域名",
+      "id": "迷你版",
+      "url": "https://bestcf.pages.dev/domain/mini.txt",
+      "ok": true,
+      "ms": 948,
+      "count": 17
+    },
+    {
+      "groupName": "BestCF优选域名",
+      "id": "全量版",
+      "url": "https://bestcf.pages.dev/domain/all.txt",
+      "ok": true,
+      "ms": 1031,
+      "count": 79
+    },
+    {
+      "groupName": "BestCF优选域名",
+      "id": "亚洲版",
+      "url": "https://bestcf.pages.dev/domain/Domain-Asia.txt",
+      "ok": true,
+      "ms": 992,
+      "count": 74
+    },
+    {
+      "groupName": "BestCF优选域名",
+      "id": "Fiatnorm域名",
+      "url": "https://bestcf.pages.dev/domain/fiatnorm/all.txt",
+      "ok": true,
+      "ms": 1044,
+      "count": 8
+    },
+    {
+      "groupName": "BestCF优选域名",
+      "id": "IRCF域名",
+      "url": "https://bestcf.pages.dev/domain/ircf/all.txt",
+      "ok": true,
+      "ms": 236,
+      "count": 32
+    },
+    {
+      "groupName": "BestCF优选域名",
+      "id": "QMS域名",
+      "url": "https://bestcf.pages.dev/domain/qms/all.txt",
+      "ok": true,
+      "ms": 981,
+      "count": 9
+    },
+    {
+      "groupName": "BestCF优选域名",
+      "id": "Senflare域名",
+      "url": "https://bestcf.pages.dev/domain/senflare/all.txt",
+      "ok": true,
+      "ms": 252,
+      "count": 4
+    },
+    {
+      "groupName": "BestCF优选域名",
+      "id": "VPS789 Top20",
+      "url": "https://bestcf.pages.dev/vps789/top20.txt",
+      "ok": true,
+      "ms": 971,
+      "count": 22
+    },
+    {
+      "groupName": "BestCF优选域名",
+      "id": "WuYa域名",
+      "url": "https://bestcf.pages.dev/domain/wuya/all.txt",
+      "ok": true,
+      "ms": 1006,
+      "count": 45
+    },
+    {
+      "groupName": "BestCF优选域名",
+      "id": "YGKKK域名",
+      "url": "https://bestcf.pages.dev/domain/ygkkk/all.txt",
+      "ok": true,
+      "ms": 1029,
+      "count": 15
+    },
+    {
+      "groupName": "BestCF优选IP",
+      "id": "天诚2 HK",
+      "url": "https://bestcf.pages.dev/tiancheng2/hk.txt",
+      "ok": true,
+      "ms": 258,
+      "count": 32
+    },
+    {
+      "groupName": "BestCF优选IP",
+      "id": "天诚2 SG",
+      "url": "https://bestcf.pages.dev/tiancheng2/sg.txt",
+      "ok": true,
+      "ms": 233,
+      "count": 32
+    },
+    {
+      "groupName": "BestCF优选IP",
+      "id": "天诚2 US",
+      "url": "https://bestcf.pages.dev/tiancheng2/us.txt",
+      "ok": true,
+      "ms": 237,
+      "count": 32
+    },
+    {
+      "groupName": "BestCF优选IP",
+      "id": "天诚2迷你",
+      "url": "https://bestcf.pages.dev/tiancheng2/mini.txt",
+      "ok": true,
+      "ms": 232,
+      "count": 22
+    },
+    {
+      "groupName": "BestCF优选IP",
+      "id": "天诚2全量",
+      "url": "https://bestcf.pages.dev/tiancheng2/all.txt",
+      "ok": true,
+      "ms": 241,
+      "count": 122
+    },
+    {
+      "groupName": "BestCF优选IP",
+      "id": "天诚3",
+      "url": "https://raw.githubusercontent.com/gshtwy/CF-DNS-Clone/refs/heads/main/wetest-cloudflare-v4.txt",
+      "ok": true,
+      "ms": 252,
+      "count": 75
+    },
+    {
+      "groupName": "BestCF优选IP",
+      "id": "天诚迷你",
+      "url": "https://bestcf.pages.dev/tiancheng/mini.txt",
+      "ok": true,
+      "ms": 249,
+      "count": 20
+    },
+    {
+      "groupName": "BestCF优选IP",
+      "id": "天诚全量",
+      "url": "https://bestcf.pages.dev/tiancheng/all.txt",
+      "ok": true,
+      "ms": 257,
+      "count": 55
+    },
+    {
+      "groupName": "BestCF优选IP",
+      "id": "CFYes IPv4",
+      "url": "https://bestcf.pages.dev/cfyes/ipv4.txt",
+      "ok": true,
+      "ms": 258,
+      "count": 17
+    },
+    {
+      "groupName": "BestCF优选IP",
+      "id": "CFYes IPv6",
+      "url": "https://bestcf.pages.dev/cfyes/ipv6.txt",
+      "ok": true,
+      "ms": 263,
+      "count": 17
+    },
+    {
+      "groupName": "BestCF优选IP",
+      "id": "Gslege JP",
+      "url": "https://bestcf.pages.dev/gslege/JP.txt",
+      "ok": true,
+      "ms": 248,
+      "count": 21
+    },
+    {
+      "groupName": "BestCF优选IP",
+      "id": "Gslege US",
+      "url": "https://bestcf.pages.dev/gslege/US.txt",
+      "ok": true,
+      "ms": 242,
+      "count": 22
+    },
+    {
+      "groupName": "BestCF优选IP",
+      "id": "Gslege带测速",
+      "url": "https://bestcf.pages.dev/gslege/Cfxyz.txt",
+      "ok": true,
+      "ms": 238,
+      "count": 12
+    },
+    {
+      "groupName": "BestCF优选IP",
+      "id": "IRCF IPv4",
+      "url": "https://bestcf.pages.dev/ircf/ipv4.txt",
+      "ok": true,
+      "ms": 258,
+      "count": 15
+    },
+    {
+      "groupName": "BestCF优选IP",
+      "id": "Joname IPv4",
+      "url": "https://raw.githubusercontent.com/joname1/BestCFip/refs/heads/main/ipv4.txt",
+      "ok": true,
+      "ms": 242,
+      "count": 115
+    },
+    {
+      "groupName": "BestCF优选IP",
+      "id": "MingYu IPv4",
+      "url": "https://raw.githubusercontent.com/ymyuuu/IPDB/refs/heads/main/BestCF/bestcfv4.txt",
+      "ok": true,
+      "ms": 231,
+      "count": 10
+    },
+    {
+      "groupName": "BestCF优选IP",
+      "id": "MingYu IPv6",
+      "url": "https://raw.githubusercontent.com/ymyuuu/IPDB/refs/heads/main/BestCF/bestcfv6.txt",
+      "ok": true,
+      "ms": 229,
+      "count": 10
+    },
+    {
+      "groupName": "BestCF优选IP",
+      "id": "MJZ电信",
+      "url": "https://cf.junzhen.qzz.io/best_ips_bj.txt",
+      "ok": true,
+      "ms": 1105,
+      "count": 33
+    },
+    {
+      "groupName": "BestCF优选IP",
+      "id": "MJZ联通",
+      "url": "https://cf.junzhen.qzz.io/best_ips.txt",
+      "ok": true,
+      "ms": 1154,
+      "count": 47
+    },
+    {
+      "groupName": "BestCF优选IP",
+      "id": "MoistR全量",
+      "url": "https://bestcf.pages.dev/moistr/all.txt",
+      "ok": true,
+      "ms": 246,
+      "count": 40
+    },
+    {
+      "groupName": "BestCF优选IP",
+      "id": "Senflare Pro",
+      "url": "https://raw.githubusercontent.com/Senflare/Senflare-IP/refs/heads/main/IPlist-Pro.txt",
+      "ok": true,
+      "ms": 1017,
+      "count": 26
+    },
+    {
+      "groupName": "BestCF优选IP",
+      "id": "UOUIN全量",
+      "url": "https://bestcf.pages.dev/uouin/all.txt",
+      "ok": true,
+      "ms": 244,
+      "count": 42
+    },
+    {
+      "groupName": "BestCF优选IP",
+      "id": "vvHan IPv4",
+      "url": "https://bestcf.pages.dev/vvhan/ipv4.txt",
+      "ok": true,
+      "ms": 240,
+      "count": 32
+    },
+    {
+      "groupName": "BestCF优选IP",
+      "id": "WeTest IPv4",
+      "url": "https://bestcf.pages.dev/wetest/ipv4.txt",
+      "ok": true,
+      "ms": 233,
+      "count": 17
+    },
+    {
+      "groupName": "BestCF优选IP",
+      "id": "ZhiXuan单IP",
+      "url": "https://bestcf.pages.dev/zhixuanwang/ipv4-onlyip.txt",
+      "ok": true,
+      "ms": 250,
+      "count": 10
+    },
+    {
+      "groupName": "CM优选",
+      "id": "电信",
+      "url": "https://cf.090227.xyz/ct?ips=25",
+      "ok": true,
+      "ms": 1073,
+      "count": 25
+    },
+    {
+      "groupName": "CM优选",
+      "id": "联通",
+      "url": "https://cf.090227.xyz/cu?ips=25",
+      "ok": true,
+      "ms": 1078,
+      "count": 25
+    },
+    {
+      "groupName": "CM优选",
+      "id": "移动",
+      "url": "https://cf.090227.xyz/cmcc?ips=25",
+      "ok": true,
+      "ms": 1143,
+      "count": 25
+    },
+    {
+      "groupName": "ProxyIP",
+      "id": "ProxyIP",
+      "url": "https://raw.githubusercontent.com/ya950/open-my/refs/heads/main/glasspanel/ProxyIP",
+      "ok": true,
+      "ms": 226,
+      "count": 25
+    }
+  ]
+}
