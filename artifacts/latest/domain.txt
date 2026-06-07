@@ -515,8 +515,8 @@ eur.877774.xyz:443#秋名山优选 | 欧洲 | eur.877774.xyz
 ctcc.cloudflare.seeck.cn#Senflare优选 | 电信 | ctcc.cloudflare.seeck.cn
 cmcc.cloudflare.seeck.cn#Senflare优选 | 移动 | cmcc.cloudflare.seeck.cn
 cucc.cloudflare.seeck.cn#Senflare优选 | 联通 | cucc.cloudflare.seeck.cn
-avido.cf.3666888.xyz:443#VPS789优选 | avido.cf.3666888.xyz
 9.cf.3666888.xyz:443#VPS789优选 | 9.cf.3666888.xyz
+yg9.ygkkk.dpdns.org:443#VPS789优选 | yg9.ygkkk.dpdns.org
 www.nexusmods.com:443#VPS789优选 | www.nexusmods.com
 dnew.cc:443#VPS789优选 | dnew.cc
 test.509666.xyz:443#VPS789优选 | test.509666.xyz
@@ -527,7 +527,7 @@ www.cdzxdz.com:443#VPS789优选 | www.cdzxdz.com
 zeas.top:443#VPS789优选 | zeas.top
 cdn.2020111.xyz:443#VPS789优选 | cdn.2020111.xyz
 cf-cname.xingpingcn.top:443#VPS789优选 | cf-cname.xingpingcn.top
-cdn.262832.xyz:443#VPS789优选 | cdn.262832.xyz
+baka.fun:443#VPS789优选 | baka.fun
 dongbanghong.com:443#VPS789优选 | dongbanghong.com
 yd.1.hhhhh.eu.org:443#乌鸦优选 | 移动1 | yd.1.hhhhh.eu.org
 yd.2.hhhhh.eu.org:443#乌鸦优选 | 移动2 | yd.2.hhhhh.eu.org
@@ -575,7 +575,6 @@ yg4.ygkkk.dpdns.org:443#甬哥优选 | yg4.ygkkk.dpdns.org
 yg6.ygkkk.dpdns.org:443#甬哥优选 | yg6.ygkkk.dpdns.org
 yg7.ygkkk.dpdns.org:443#甬哥优选 | yg7.ygkkk.dpdns.org
 yg8.ygkkk.dpdns.org:443#甬哥优选 | yg8.ygkkk.dpdns.org
-yg9.ygkkk.dpdns.org:443#甬哥优选 | yg9.ygkkk.dpdns.org
 yg10.ygkkk.dpdns.org:443#甬哥优选 | yg10.ygkkk.dpdns.org
 yg11.ygkkk.dpdns.org:443#甬哥优选 | yg11.ygkkk.dpdns.org
 yg12.ygkkk.dpdns.org:443#甬哥优选 | yg12.ygkkk.dpdns.org
