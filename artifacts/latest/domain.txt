@@ -515,19 +515,22 @@ eur.877774.xyz:443#秋名山优选 | 欧洲 | eur.877774.xyz
 ctcc.cloudflare.seeck.cn#Senflare优选 | 电信 | ctcc.cloudflare.seeck.cn
 cmcc.cloudflare.seeck.cn#Senflare优选 | 移动 | cmcc.cloudflare.seeck.cn
 cucc.cloudflare.seeck.cn#Senflare优选 | 联通 | cucc.cloudflare.seeck.cn
-www.nexusmods.com:443#VPS789优选 | www.nexusmods.com
-9.cf.3666888.xyz:443#VPS789优选 | 9.cf.3666888.xyz
-yg9.ygkkk.dpdns.org:443#VPS789优选 | yg9.ygkkk.dpdns.org
+www.akasantech.com:443#VPS789优选 | www.akasantech.com
+cloudflare-ip.mofashi.ltd:443#VPS789优选 | cloudflare-ip.mofashi.ltd
 cf-cname.xingpingcn.top:443#VPS789优选 | cf-cname.xingpingcn.top
+cloudflare.idc.rocks:443#VPS789优选 | cloudflare.idc.rocks
+test.509666.xyz:443#VPS789优选 | test.509666.xyz
+www.nexusmods.com:443#VPS789优选 | www.nexusmods.com
+youxuan.cf.3666888.xyz:443#VPS789优选 | youxuan.cf.3666888.xyz
+cf.cf.3666888.xyz:443#VPS789优选 | cf.cf.3666888.xyz
+yg7.ygkkk.dpdns.org:443#VPS789优选 | yg7.ygkkk.dpdns.org
+01-cctv.com:443#VPS789优选 | 01-cctv.com
+www.5199dy.com:443#VPS789优选 | www.5199dy.com
+9.cf.3666888.xyz:443#VPS789优选 | 9.cf.3666888.xyz
 yg5.ygkkk.dpdns.org:443#VPS789优选 | yg5.ygkkk.dpdns.org
-zeas.top:443#VPS789优选 | zeas.top
-cdn.2020111.xyz:443#VPS789优选 | cdn.2020111.xyz
+www.xiaoshuofen.com:443#VPS789优选 | www.xiaoshuofen.com
 dongbanghong.com:443#VPS789优选 | dongbanghong.com
 cloudflare.468123.xyz:443#VPS789优选 | cloudflare.468123.xyz
-isp.254301.xyz:443#VPS789优选 | isp.254301.xyz
-yg7.ygkkk.dpdns.org:443#VPS789优选 | yg7.ygkkk.dpdns.org
-www.visa.com:443#VPS789优选 | www.visa.com
-www.mc.js.cool:443#VPS789优选 | www.mc.js.cool
 yd.1.hhhhh.eu.org:443#乌鸦优选 | 移动1 | yd.1.hhhhh.eu.org
 yd.2.hhhhh.eu.org:443#乌鸦优选 | 移动2 | yd.2.hhhhh.eu.org
 yd.3.hhhhh.eu.org:443#乌鸦优选 | 移动3 | yd.3.hhhhh.eu.org
@@ -573,11 +576,12 @@ yg3.ygkkk.dpdns.org:443#甬哥优选 | yg3.ygkkk.dpdns.org
 yg4.ygkkk.dpdns.org:443#甬哥优选 | yg4.ygkkk.dpdns.org
 yg6.ygkkk.dpdns.org:443#甬哥优选 | yg6.ygkkk.dpdns.org
 yg8.ygkkk.dpdns.org:443#甬哥优选 | yg8.ygkkk.dpdns.org
+yg9.ygkkk.dpdns.org:443#甬哥优选 | yg9.ygkkk.dpdns.org
 yg10.ygkkk.dpdns.org:443#甬哥优选 | yg10.ygkkk.dpdns.org
 yg11.ygkkk.dpdns.org:443#甬哥优选 | yg11.ygkkk.dpdns.org
 yg12.ygkkk.dpdns.org:443#甬哥优选 | yg12.ygkkk.dpdns.org
 yg13.ygkkk.dpdns.org:443#甬哥优选 | yg13.ygkkk.dpdns.org
-ipv4.list.updated.at#Upd20260607_18:30
+ipv4.list.updated.at#Upd20260608_01:18
 fw8je9.cf.3666888.xyz:2096#MoistR优选 | 优选域名 01 | fw8je9.cf.3666888.xyz:2096
 cloudflare.idc.rocks:2096#MoistR优选 | 优选域名 02 | cloudflare.idc.rocks:2096
 saas.sin.fan:2096#MoistR优选 | 优选域名 03 | saas.sin.fan:2096
