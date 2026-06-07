@@ -20,6 +20,7 @@ jobs:
     env:
       BUILD_CONCURRENCY: 8
       BUILD_MAX_SOURCE_BYTES: 1048576
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -28,10 +29,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: npm
 
       - name: Install dependencies
-        run: npm ci || npm install
+        run: npm install
 
       - name: Syntax check
         run: npm run check
