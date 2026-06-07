@@ -163,11 +163,11 @@ const uiSmokeCore = await readText("scripts/ui-smoke-test.mjs").catch(() => "");
 add("ui smoke test checks frontend structure", uiSmokeCore.includes("requiredHtmlSnippets") && uiSmokeCore.includes("requiredJsSnippets") && uiSmokeCore.includes("local-server.js"));
 
 const finalHandoffDoc = await readText("docs/FINAL_HANDOFF.md").catch(() => "");
-add("final handoff doc covers delivery essentials", ["项目定位", "Cloudflare Pages 部署要点", "环境变量", "上线后验收", "已知限制"].every(text => finalHandoffDoc.includes(text)));
+add("final handoff doc covers delivery essentials", ["项目简介", "部署要求", "ADMIN_TOKEN", "重要限制", "提交前检查"].every(text => finalHandoffDoc.includes(text)));
 
 const artifactsDoc = await readText("docs/ARTIFACTS.md").catch(() => "");
 const releaseNotesDoc = await readText("docs/RELEASE_NOTES.md").catch(() => "");
-add("release docs include artifacts and release notes", artifactsDoc.includes("交付包清单") && releaseNotesDoc.includes("当前版本：v12"));
+add("release docs include artifacts and release notes", artifactsDoc.includes("数据产物说明") && releaseNotesDoc.includes("当前能力"));
 
 const testReportCore = await readText("scripts/test-report.mjs").catch(() => "");
 add("test-report script checks artifacts and scripts", testReportCore.includes("requiredArtifacts") && testReportCore.includes("requiredScripts"));
