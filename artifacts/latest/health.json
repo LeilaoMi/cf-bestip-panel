@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-06-06T20:51:11.259Z",
-  "durationMs": 8160,
+  "generatedAt": "2026-06-07T10:31:53.700Z",
+  "durationMs": 3147,
   "summary": {
     "sources": 73,
-    "ok": 73,
-    "failed": 0,
-    "rawLines": 54160,
-    "deduped": 39890
+    "ok": 72,
+    "failed": 1,
+    "rawLines": 54116,
+    "deduped": 39940
   },
   "sources": [
     {
@@ -14,7 +14,7 @@
       "id": "优选1",
       "url": "https://sub.680660.xyz/sub?host=snippts.fuck.xyz&sub=vl.cm.soso.edu.kg&subapi=https%3A%2F%2Fsubapi.cmliussss.net&uuid=xiexieni-520e-66a7-8da9-20251103b8ff",
       "ok": true,
-      "ms": 1604,
+      "ms": 2666,
       "count": 53
     },
     {
@@ -22,7 +22,7 @@
       "id": "优选2",
       "url": "https://sub.680660.xyz/sub?host=snippts.fuck.xyz&sub=vloo.cm.soso.edu.kg&subapi=https%3A%2F%2Fsubapi.cmliussss.net&uuid=xiexieni-520e-66a7-8da9-20251103b8ff",
       "ok": true,
-      "ms": 1117,
+      "ms": 2443,
       "count": 58
     },
     {
@@ -30,7 +30,7 @@
       "id": "HK",
       "url": "https://ddx.snu.cc/HK",
       "ok": true,
-      "ms": 1186,
+      "ms": 1719,
       "count": 978
     },
     {
@@ -38,7 +38,7 @@
       "id": "JP",
       "url": "https://ddx.snu.cc/JP",
       "ok": true,
-      "ms": 1239,
+      "ms": 1732,
       "count": 1425
     },
     {
@@ -46,7 +46,7 @@
       "id": "KR",
       "url": "https://ddx.snu.cc/KR",
       "ok": true,
-      "ms": 1456,
+      "ms": 1081,
       "count": 2041
     },
     {
@@ -54,7 +54,7 @@
       "id": "SG",
       "url": "https://ddx.snu.cc/SG",
       "ok": true,
-      "ms": 1290,
+      "ms": 1032,
       "count": 1316
     },
     {
@@ -62,7 +62,7 @@
       "id": "TW",
       "url": "https://ddx.snu.cc/TW",
       "ok": true,
-      "ms": 1205,
+      "ms": 1699,
       "count": 533
     },
     {
@@ -70,7 +70,7 @@
       "id": "US",
       "url": "https://ddx.snu.cc/US",
       "ok": true,
-      "ms": 1457,
+      "ms": 1061,
       "count": 3017
     },
     {
@@ -78,7 +78,7 @@
       "id": "danfeng",
       "url": "https://sub.danfeng.eu.org/sub?uuid=26524cce-d514-4014-a426-365fb266a14d&encryption=none&security=tls&sni=be3noxe89ev.sh21.eu.org&fp=chrome&alpn=http%2F1.1%0A&insecure=0&allowInsecure=0&ech=encryptedsni.com%2Bhttps%3A%2F%2Fdoh.443888.xyz%2Fdanfeng&type=ws&host=be3noxe89ev.sh21.eu.org&path=%2Fdanfeng%3Fed%3D2560",
       "ok": true,
-      "ms": 1751,
+      "ms": 1278,
       "count": 30
     },
     {
@@ -86,15 +86,15 @@
       "id": "JZ",
       "url": "https://raw.githubusercontent.com/HandsomeMJZ/cfip/refs/heads/main/best_ips.txt",
       "ok": true,
-      "ms": 1120,
-      "count": 47
+      "ms": 14,
+      "count": 33
     },
     {
       "groupName": "优选合集",
       "id": "mingyu",
       "url": "https://raw.githubusercontent.com/ymyuuu/IPDB/refs/heads/main/BestCF/bestcfv4.txt",
       "ok": true,
-      "ms": 1034,
+      "ms": 7,
       "count": 10
     },
     {
@@ -102,23 +102,24 @@
       "id": "Moist_R",
       "url": "https://sub.680660.xyz/sub?host=snippts.fuck.xyz&sub=owo.o00o.ooo&subapi=https%3A%2F%2Fsubapi.cmliussss.net&uuid=xiexieni-520e-66a7-8da9-20251103b8ff",
       "ok": true,
-      "ms": 388,
+      "ms": 266,
       "count": 38
     },
     {
       "groupName": "优选合集",
       "id": "xinyitang",
       "url": "https://jkahdoa88.fyut.660696.xyz/sub?token=c389a338634deda44468006ce66322d6",
-      "ok": true,
-      "ms": 1080,
-      "count": 15
+      "ok": false,
+      "ms": 17,
+      "count": 0,
+      "error": "fetch failed"
     },
     {
       "groupName": "优选域名",
       "id": "优选域名",
       "url": "https://raw.githubusercontent.com/ya950/open-my/refs/heads/main/glasspanel/yxyuming",
       "ok": true,
-      "ms": 1029,
+      "ms": 15,
       "count": 28
     },
     {
@@ -126,7 +127,7 @@
       "id": "Cloudflare IPv4",
       "url": "https://www.cloudflare.com/ips-v4",
       "ok": true,
-      "ms": 1033,
+      "ms": 51,
       "count": 15
     },
     {
@@ -134,7 +135,7 @@
       "id": "Cloudflare IPv6",
       "url": "https://www.cloudflare.com/ips-v6",
       "ok": true,
-      "ms": 1021,
+      "ms": 34,
       "count": 7
     },
     {
@@ -142,15 +143,15 @@
       "id": "CM IP库 TXT",
       "url": "https://zip.cm.edu.kg/all.txt",
       "ok": true,
-      "ms": 1486,
-      "count": 16013
+      "ms": 489,
+      "count": 15796
     },
     {
       "groupName": "BestCF CIDR/IP库",
       "id": "Mia IP库",
       "url": "https://countrymerge.pages.dev/all.txt",
       "ok": true,
-      "ms": 1662,
+      "ms": 83,
       "count": 20419
     },
     {
@@ -158,7 +159,7 @@
       "id": "WARP 443 IP库",
       "url": "https://bestcf.pages.dev/WARP/WARP-MASQUE-IPs-443.txt",
       "ok": true,
-      "ms": 278,
+      "ms": 20,
       "count": 2048
     },
     {
@@ -166,7 +167,7 @@
       "id": "WARP 8443 IP库",
       "url": "https://bestcf.pages.dev/WARP/WARP-MASQUE-IPs-8443.txt",
       "ok": true,
-      "ms": 266,
+      "ms": 17,
       "count": 2048
     },
     {
@@ -174,7 +175,7 @@
       "id": "WARP MASQUE CIDR",
       "url": "https://bestcf.pages.dev/CIDR/WARP-MASQUE-CIDRs.txt",
       "ok": true,
-      "ms": 305,
+      "ms": 13,
       "count": 10
     },
     {
@@ -182,7 +183,7 @@
       "id": "ZXDL成功段",
       "url": "https://bestcf.pages.dev/CIDR/success.txt",
       "ok": true,
-      "ms": 225,
+      "ms": 13,
       "count": 74
     },
     {
@@ -190,7 +191,7 @@
       "id": "ZXDL合集段",
       "url": "https://bestcf.pages.dev/CIDR/all.txt",
       "ok": true,
-      "ms": 247,
+      "ms": 13,
       "count": 18
     },
     {
@@ -198,7 +199,7 @@
       "id": "MingYu BestProxy",
       "url": "https://ipdb.api.030101.xyz/?type=bestproxy",
       "ok": true,
-      "ms": 977,
+      "ms": 106,
       "count": 10
     },
     {
@@ -206,15 +207,15 @@
       "id": "Xgonce ProxyIP",
       "url": "https://raw.githubusercontent.com/xgonce/Cloudflare_IP/refs/heads/main/result.csv",
       "ok": true,
-      "ms": 404,
-      "count": 1901
+      "ms": 31,
+      "count": 2139
     },
     {
       "groupName": "BestCF随机优选",
       "id": "电信随机50",
       "url": "https://090227.pages.dev/bestcf?isp=ct&ips=50",
       "ok": true,
-      "ms": 1190,
+      "ms": 117,
       "count": 52
     },
     {
@@ -222,7 +223,7 @@
       "id": "联通随机50",
       "url": "https://090227.pages.dev/bestcf?isp=cu&ips=50",
       "ok": true,
-      "ms": 1170,
+      "ms": 524,
       "count": 52
     },
     {
@@ -230,7 +231,7 @@
       "id": "三网随机20",
       "url": "https://090227.pages.dev/bestcf?isp=all&ips=20",
       "ok": true,
-      "ms": 997,
+      "ms": 603,
       "count": 62
     },
     {
@@ -238,7 +239,7 @@
       "id": "随机104常用",
       "url": "https://randomip.pages.dev/?c=104.16.0.0/12&n=50&p=random",
       "ok": true,
-      "ms": 1097,
+      "ms": 79,
       "count": 50
     },
     {
@@ -246,7 +247,7 @@
       "id": "随机188常用",
       "url": "https://randomip.pages.dev/?c=188.114.96.0/22&n=50&p=random",
       "ok": true,
-      "ms": 1041,
+      "ms": 38,
       "count": 50
     },
     {
@@ -254,7 +255,7 @@
       "id": "移动随机50",
       "url": "https://090227.pages.dev/bestcf?isp=cmcc&ips=50",
       "ok": true,
-      "ms": 1138,
+      "ms": 31,
       "count": 52
     },
     {
@@ -262,7 +263,7 @@
       "id": "WARP核心50",
       "url": "https://warp-masque-bestip.pages.dev/?ips=50&level=p0&port=random",
       "ok": true,
-      "ms": 1118,
+      "ms": 12,
       "count": 52
     },
     {
@@ -270,7 +271,7 @@
       "id": "WARP通用50",
       "url": "https://warp-masque-bestip.pages.dev/?ips=50&level=all&port=random",
       "ok": true,
-      "ms": 1022,
+      "ms": 68,
       "count": 52
     },
     {
@@ -278,7 +279,7 @@
       "id": "高访问量域名",
       "url": "https://bestcf.pages.dev/domain/Domain-TOP.txt",
       "ok": true,
-      "ms": 270,
+      "ms": 13,
       "count": 305
     },
     {
@@ -286,7 +287,7 @@
       "id": "迷你版",
       "url": "https://bestcf.pages.dev/domain/mini.txt",
       "ok": true,
-      "ms": 948,
+      "ms": 32,
       "count": 17
     },
     {
@@ -294,7 +295,7 @@
       "id": "全量版",
       "url": "https://bestcf.pages.dev/domain/all.txt",
       "ok": true,
-      "ms": 1031,
+      "ms": 43,
       "count": 79
     },
     {
@@ -302,15 +303,15 @@
       "id": "亚洲版",
       "url": "https://bestcf.pages.dev/domain/Domain-Asia.txt",
       "ok": true,
-      "ms": 992,
-      "count": 74
+      "ms": 55,
+      "count": 76
     },
     {
       "groupName": "BestCF优选域名",
       "id": "Fiatnorm域名",
       "url": "https://bestcf.pages.dev/domain/fiatnorm/all.txt",
       "ok": true,
-      "ms": 1044,
+      "ms": 15,
       "count": 8
     },
     {
@@ -318,7 +319,7 @@
       "id": "IRCF域名",
       "url": "https://bestcf.pages.dev/domain/ircf/all.txt",
       "ok": true,
-      "ms": 236,
+      "ms": 47,
       "count": 32
     },
     {
@@ -326,7 +327,7 @@
       "id": "QMS域名",
       "url": "https://bestcf.pages.dev/domain/qms/all.txt",
       "ok": true,
-      "ms": 981,
+      "ms": 30,
       "count": 9
     },
     {
@@ -334,7 +335,7 @@
       "id": "Senflare域名",
       "url": "https://bestcf.pages.dev/domain/senflare/all.txt",
       "ok": true,
-      "ms": 252,
+      "ms": 13,
       "count": 4
     },
     {
@@ -342,7 +343,7 @@
       "id": "VPS789 Top20",
       "url": "https://bestcf.pages.dev/vps789/top20.txt",
       "ok": true,
-      "ms": 971,
+      "ms": 12,
       "count": 22
     },
     {
@@ -350,7 +351,7 @@
       "id": "WuYa域名",
       "url": "https://bestcf.pages.dev/domain/wuya/all.txt",
       "ok": true,
-      "ms": 1006,
+      "ms": 14,
       "count": 45
     },
     {
@@ -358,7 +359,7 @@
       "id": "YGKKK域名",
       "url": "https://bestcf.pages.dev/domain/ygkkk/all.txt",
       "ok": true,
-      "ms": 1029,
+      "ms": 46,
       "count": 15
     },
     {
@@ -366,7 +367,7 @@
       "id": "天诚2 HK",
       "url": "https://bestcf.pages.dev/tiancheng2/hk.txt",
       "ok": true,
-      "ms": 258,
+      "ms": 46,
       "count": 32
     },
     {
@@ -374,7 +375,7 @@
       "id": "天诚2 SG",
       "url": "https://bestcf.pages.dev/tiancheng2/sg.txt",
       "ok": true,
-      "ms": 233,
+      "ms": 12,
       "count": 32
     },
     {
@@ -382,7 +383,7 @@
       "id": "天诚2 US",
       "url": "https://bestcf.pages.dev/tiancheng2/us.txt",
       "ok": true,
-      "ms": 237,
+      "ms": 15,
       "count": 32
     },
     {
@@ -390,7 +391,7 @@
       "id": "天诚2迷你",
       "url": "https://bestcf.pages.dev/tiancheng2/mini.txt",
       "ok": true,
-      "ms": 232,
+      "ms": 13,
       "count": 22
     },
     {
@@ -398,7 +399,7 @@
       "id": "天诚2全量",
       "url": "https://bestcf.pages.dev/tiancheng2/all.txt",
       "ok": true,
-      "ms": 241,
+      "ms": 26,
       "count": 122
     },
     {
@@ -406,7 +407,7 @@
       "id": "天诚3",
       "url": "https://raw.githubusercontent.com/gshtwy/CF-DNS-Clone/refs/heads/main/wetest-cloudflare-v4.txt",
       "ok": true,
-      "ms": 252,
+      "ms": 12,
       "count": 75
     },
     {
@@ -414,7 +415,7 @@
       "id": "天诚迷你",
       "url": "https://bestcf.pages.dev/tiancheng/mini.txt",
       "ok": true,
-      "ms": 249,
+      "ms": 14,
       "count": 20
     },
     {
@@ -422,7 +423,7 @@
       "id": "天诚全量",
       "url": "https://bestcf.pages.dev/tiancheng/all.txt",
       "ok": true,
-      "ms": 257,
+      "ms": 13,
       "count": 55
     },
     {
@@ -430,7 +431,7 @@
       "id": "CFYes IPv4",
       "url": "https://bestcf.pages.dev/cfyes/ipv4.txt",
       "ok": true,
-      "ms": 258,
+      "ms": 35,
       "count": 17
     },
     {
@@ -438,7 +439,7 @@
       "id": "CFYes IPv6",
       "url": "https://bestcf.pages.dev/cfyes/ipv6.txt",
       "ok": true,
-      "ms": 263,
+      "ms": 37,
       "count": 17
     },
     {
@@ -446,7 +447,7 @@
       "id": "Gslege JP",
       "url": "https://bestcf.pages.dev/gslege/JP.txt",
       "ok": true,
-      "ms": 248,
+      "ms": 12,
       "count": 21
     },
     {
@@ -454,7 +455,7 @@
       "id": "Gslege US",
       "url": "https://bestcf.pages.dev/gslege/US.txt",
       "ok": true,
-      "ms": 242,
+      "ms": 13,
       "count": 22
     },
     {
@@ -462,7 +463,7 @@
       "id": "Gslege带测速",
       "url": "https://bestcf.pages.dev/gslege/Cfxyz.txt",
       "ok": true,
-      "ms": 238,
+      "ms": 12,
       "count": 12
     },
     {
@@ -470,7 +471,7 @@
       "id": "IRCF IPv4",
       "url": "https://bestcf.pages.dev/ircf/ipv4.txt",
       "ok": true,
-      "ms": 258,
+      "ms": 14,
       "count": 15
     },
     {
@@ -478,15 +479,15 @@
       "id": "Joname IPv4",
       "url": "https://raw.githubusercontent.com/joname1/BestCFip/refs/heads/main/ipv4.txt",
       "ok": true,
-      "ms": 242,
-      "count": 115
+      "ms": 14,
+      "count": 114
     },
     {
       "groupName": "BestCF优选IP",
       "id": "MingYu IPv4",
       "url": "https://raw.githubusercontent.com/ymyuuu/IPDB/refs/heads/main/BestCF/bestcfv4.txt",
       "ok": true,
-      "ms": 231,
+      "ms": 3,
       "count": 10
     },
     {
@@ -494,7 +495,7 @@
       "id": "MingYu IPv6",
       "url": "https://raw.githubusercontent.com/ymyuuu/IPDB/refs/heads/main/BestCF/bestcfv6.txt",
       "ok": true,
-      "ms": 229,
+      "ms": 26,
       "count": 10
     },
     {
@@ -502,23 +503,23 @@
       "id": "MJZ电信",
       "url": "https://cf.junzhen.qzz.io/best_ips_bj.txt",
       "ok": true,
-      "ms": 1105,
-      "count": 33
+      "ms": 378,
+      "count": 12
     },
     {
       "groupName": "BestCF优选IP",
       "id": "MJZ联通",
       "url": "https://cf.junzhen.qzz.io/best_ips.txt",
       "ok": true,
-      "ms": 1154,
-      "count": 47
+      "ms": 366,
+      "count": 33
     },
     {
       "groupName": "BestCF优选IP",
       "id": "MoistR全量",
       "url": "https://bestcf.pages.dev/moistr/all.txt",
       "ok": true,
-      "ms": 246,
+      "ms": 15,
       "count": 40
     },
     {
@@ -526,15 +527,15 @@
       "id": "Senflare Pro",
       "url": "https://raw.githubusercontent.com/Senflare/Senflare-IP/refs/heads/main/IPlist-Pro.txt",
       "ok": true,
-      "ms": 1017,
-      "count": 26
+      "ms": 12,
+      "count": 24
     },
     {
       "groupName": "BestCF优选IP",
       "id": "UOUIN全量",
       "url": "https://bestcf.pages.dev/uouin/all.txt",
       "ok": true,
-      "ms": 244,
+      "ms": 13,
       "count": 42
     },
     {
@@ -542,7 +543,7 @@
       "id": "vvHan IPv4",
       "url": "https://bestcf.pages.dev/vvhan/ipv4.txt",
       "ok": true,
-      "ms": 240,
+      "ms": 14,
       "count": 32
     },
     {
@@ -550,7 +551,7 @@
       "id": "WeTest IPv4",
       "url": "https://bestcf.pages.dev/wetest/ipv4.txt",
       "ok": true,
-      "ms": 233,
+      "ms": 47,
       "count": 17
     },
     {
@@ -558,7 +559,7 @@
       "id": "ZhiXuan单IP",
       "url": "https://bestcf.pages.dev/zhixuanwang/ipv4-onlyip.txt",
       "ok": true,
-      "ms": 250,
+      "ms": 39,
       "count": 10
     },
     {
@@ -566,7 +567,7 @@
       "id": "电信",
       "url": "https://cf.090227.xyz/ct?ips=25",
       "ok": true,
-      "ms": 1073,
+      "ms": 721,
       "count": 25
     },
     {
@@ -574,7 +575,7 @@
       "id": "联通",
       "url": "https://cf.090227.xyz/cu?ips=25",
       "ok": true,
-      "ms": 1078,
+      "ms": 722,
       "count": 25
     },
     {
@@ -582,7 +583,7 @@
       "id": "移动",
       "url": "https://cf.090227.xyz/cmcc?ips=25",
       "ok": true,
-      "ms": 1143,
+      "ms": 753,
       "count": 25
     },
     {
@@ -590,7 +591,7 @@
       "id": "ProxyIP",
       "url": "https://raw.githubusercontent.com/ya950/open-my/refs/heads/main/glasspanel/ProxyIP",
       "ok": true,
-      "ms": 226,
+      "ms": 58,
       "count": 25
     }
   ]

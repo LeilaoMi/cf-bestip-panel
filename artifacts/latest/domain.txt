@@ -407,6 +407,8 @@ deepin.org:443#亚洲域名 | 中国深度系统
 ubuntu.com.cn:443#亚洲域名 | 中国乌班图
 www.nestle.com.cn:443#亚洲域名 | 中国雀巢
 ir.yuntongxun.com:443#亚洲域名 | 中国容联
+70mai.store:443#亚洲域名 | 中国70迈
+52pojie.org:443#亚洲域名 | 吾爱破解
 fictiv.com:443#亚洲域名 | Fictiv
 woodsbagot.com:443#亚洲域名 | 伍兹贝格
 jebsen.com:443#亚洲域名 | 中国香港捷成
@@ -513,21 +515,20 @@ eur.877774.xyz:443#秋名山优选 | 欧洲 | eur.877774.xyz
 ctcc.cloudflare.seeck.cn#Senflare优选 | 电信 | ctcc.cloudflare.seeck.cn
 cmcc.cloudflare.seeck.cn#Senflare优选 | 移动 | cmcc.cloudflare.seeck.cn
 cucc.cloudflare.seeck.cn#Senflare优选 | 联通 | cucc.cloudflare.seeck.cn
-www.mc.js.cool:443#VPS789优选 | www.mc.js.cool
-adnjv.cf.3666888.xyz:443#VPS789优选 | adnjv.cf.3666888.xyz
-cloudflare-ip.mofashi.ltd:443#VPS789优选 | cloudflare-ip.mofashi.ltd
-3.cf.3666888.xyz:443#VPS789优选 | 3.cf.3666888.xyz
-www.cdzxdz.com:443#VPS789优选 | www.cdzxdz.com
-vip.cf.3666888.xyz:443#VPS789优选 | vip.cf.3666888.xyz
-hk.cf.3666888.xyz:443#VPS789优选 | hk.cf.3666888.xyz
+avido.cf.3666888.xyz:443#VPS789优选 | avido.cf.3666888.xyz
 9.cf.3666888.xyz:443#VPS789优选 | 9.cf.3666888.xyz
-qocu.cf.3666888.xyz:443#VPS789优选 | qocu.cf.3666888.xyz
-cloudflare.468123.xyz:443#VPS789优选 | cloudflare.468123.xyz
-01-cctv.com:443#VPS789优选 | 01-cctv.com
-bbs.alipansou.com:443#VPS789优选 | bbs.alipansou.com
-4.cf.3666888.xyz:443#VPS789优选 | 4.cf.3666888.xyz
-101yaoye.com:443#VPS789优选 | 101yaoye.com
-2.cf.3666888.xyz:443#VPS789优选 | 2.cf.3666888.xyz
+www.nexusmods.com:443#VPS789优选 | www.nexusmods.com
+dnew.cc:443#VPS789优选 | dnew.cc
+test.509666.xyz:443#VPS789优选 | test.509666.xyz
+yg5.ygkkk.dpdns.org:443#VPS789优选 | yg5.ygkkk.dpdns.org
+www.xiaoshuofen.com:443#VPS789优选 | www.xiaoshuofen.com
+www.cdzxdz.com:443#VPS789优选 | www.cdzxdz.com
+01-qq.com:443#VPS789优选 | 01-qq.com
+zeas.top:443#VPS789优选 | zeas.top
+cdn.2020111.xyz:443#VPS789优选 | cdn.2020111.xyz
+cf-cname.xingpingcn.top:443#VPS789优选 | cf-cname.xingpingcn.top
+cdn.262832.xyz:443#VPS789优选 | cdn.262832.xyz
+dongbanghong.com:443#VPS789优选 | dongbanghong.com
 yd.1.hhhhh.eu.org:443#乌鸦优选 | 移动1 | yd.1.hhhhh.eu.org
 yd.2.hhhhh.eu.org:443#乌鸦优选 | 移动2 | yd.2.hhhhh.eu.org
 yd.3.hhhhh.eu.org:443#乌鸦优选 | 移动3 | yd.3.hhhhh.eu.org
@@ -571,7 +572,6 @@ qms.3.hhhhh.eu.org:443#乌鸦优选 | qms3 | qms.3.hhhhh.eu.org
 yg2.ygkkk.dpdns.org:443#甬哥优选 | yg2.ygkkk.dpdns.org
 yg3.ygkkk.dpdns.org:443#甬哥优选 | yg3.ygkkk.dpdns.org
 yg4.ygkkk.dpdns.org:443#甬哥优选 | yg4.ygkkk.dpdns.org
-yg5.ygkkk.dpdns.org:443#甬哥优选 | yg5.ygkkk.dpdns.org
 yg6.ygkkk.dpdns.org:443#甬哥优选 | yg6.ygkkk.dpdns.org
 yg7.ygkkk.dpdns.org:443#甬哥优选 | yg7.ygkkk.dpdns.org
 yg8.ygkkk.dpdns.org:443#甬哥优选 | yg8.ygkkk.dpdns.org
@@ -580,7 +580,7 @@ yg10.ygkkk.dpdns.org:443#甬哥优选 | yg10.ygkkk.dpdns.org
 yg11.ygkkk.dpdns.org:443#甬哥优选 | yg11.ygkkk.dpdns.org
 yg12.ygkkk.dpdns.org:443#甬哥优选 | yg12.ygkkk.dpdns.org
 yg13.ygkkk.dpdns.org:443#甬哥优选 | yg13.ygkkk.dpdns.org
-ipv4.list.updated.at#Upd20260607_01:16
+ipv4.list.updated.at#Upd20260607_18:30
 fw8je9.cf.3666888.xyz:2096#MoistR优选 | 优选域名 01 | fw8je9.cf.3666888.xyz:2096
 cloudflare.idc.rocks:2096#MoistR优选 | 优选域名 02 | cloudflare.idc.rocks:2096
 saas.sin.fan:2096#MoistR优选 | 优选域名 03 | saas.sin.fan:2096
