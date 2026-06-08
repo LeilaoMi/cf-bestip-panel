@@ -1,0 +1,9 @@
+{
+  "name": "边缘地址筛选面板",
+  "short_name": "地址筛选",
+  "start_url": "./index.html?v=v4r15r2",
+  "display": "standalone",
+  "background_color": "#f6f8fb",
+  "theme_color": "#2563eb",
+  "icons": []
+}
