@@ -2,7 +2,7 @@
 
 `cf-bestip-panel` 是一个适用于 Cloudflare Pages 的纯静态地址筛选面板。它用于整理地址源、提取地址、区域筛选、浏览器本地检测、结果排序、复制与导出。
 
-当前仓库版本是 **公开精简版**：线上页面只展示用户需要的核心功能；README、部署说明、验收清单、维护说明等内容只保留在仓库文档中，不会作为页面模块显示。
+当前仓库版本是 **公开精简版**：线上页面只展示用户需要的核心功能；项目说明、部署说明、验收清单、维护说明等内容只保留在仓库文档中，不会作为页面模块显示。
 
 ## 项目定位
 
@@ -11,7 +11,7 @@
 核心边界：
 
 - 纯静态页面；
-- 不依赖 Cloudflare Pages Functions；
+- 不依赖 Cloudflare Pages 云函数；
 - 不提供 `/api/*` 运行接口；
 - 不做服务端代理转发；
 - 不生成协议订阅；
@@ -32,8 +32,8 @@
 
 公开页面不应默认出现：
 
-- README；
-- 验收清单；
+- 项目说明文档模块；
+- 验收清单模块；
 - 压测工具；
 - 项目交付说明；
 - 内部版本迭代记录；
@@ -54,7 +54,7 @@ cf-bestip-panel/
 ├── config.json                # 当前默认配置
 ├── default-config.json        # 默认配置模板
 ├── manifest.webmanifest       # PWA 清单
-├── sw.js                      # Service Worker
+├── sw.js                      # 离线缓存脚本
 ├── _headers                   # Cloudflare Pages 响应头
 ├── docs/                      # 仓库说明文档，不作为页面模块展示
 ├── README.md                  # 项目说明
@@ -73,7 +73,7 @@ Cloudflare Pages 配置：
 构建命令：留空
 输出目录：/
 环境变量：不需要
-Functions：不需要
+云函数：不需要
 KV：不需要
 ```
 
@@ -83,7 +83,7 @@ KV：不需要
 https://你的域名/?v=v4r15r2
 ```
 
-如果浏览器仍显示旧页面，请清理浏览器缓存或注销旧 Service Worker。
+如果浏览器仍显示旧页面，请清理浏览器缓存或注销旧离线缓存脚本。
 
 ## 高级模式
 
@@ -93,17 +93,9 @@ https://你的域名/?v=v4r15r2
 ?admin=1
 ```
 
-示例：
-
-```text
-https://你的域名/?admin=1
-```
-
 高级模式用于维护，不建议作为普通公开入口。
 
 ## 本地预览
-
-不需要安装依赖。任选一种方式启动静态服务器：
 
 ```bash
 python3 -m http.server 8788
@@ -131,8 +123,6 @@ grep -R "/api/" index.html assets sw.js config.json default-config.json
 正常情况下不应存在运行中的 `/api/*` 依赖。
 
 ## 文档
-
-更多说明见：
 
 ```text
 docs/DEPLOY.md
