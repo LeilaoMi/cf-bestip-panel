@@ -1,1 +1,1 @@
-纯静态公开精简版：手动上传或 GitHub 连接 Pages 均可，无 Pages Functions。
+纯静态公开精简版：手动上传或 GitHub 连接 Pages 均可，无云函数。
