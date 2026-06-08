@@ -2,78 +2,51 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>优选 IP 管理台</title>
-  <link rel="stylesheet" href="/assets/app.css" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>边缘地址筛选面板</title>
+  <link rel="stylesheet" href="assets/app.css" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <meta name="theme-color" content="#2563eb" />
 </head>
 <body>
-  <div class="app-shell">
+  <div class="app">
     <aside class="sidebar">
-      <div class="brand">
-        <div class="logo">IP</div>
-        <div><h1>优选 IP 管理台</h1><p>BestIP Control Center</p></div>
-      </div>
-      <nav class="side-nav">
-        <button class="nav-item active" data-page="dashboard">📊 仪表盘</button>
-        <button class="nav-item" data-page="sources">🔗 线路提取</button>
-        <button class="nav-item" data-page="global">🌍 全球优选</button>
-        <button class="nav-item" data-page="speedtest">⚡ 在线测速</button>
-        <button class="nav-item" data-page="admin">⚙️ 配置中心</button>
+      <div class="brand"><div class="logo">IP</div><div><h1>边缘地址筛选面板</h1><p>Address Filter</p></div></div>
+      <nav class="nav">
+        <button class="active" data-page="dashboard">📊 仪表盘</button>
+        <button data-page="extract">🔗 线路提取</button>
+        <button data-page="region">🌍 区域地址</button>
+        <button data-page="test">⚡ 延迟检测</button>
+        <button data-page="settings">⚙️ 配置中心</button>
       </nav>
-      <div class="sidebar-foot">
-        <a href="https://t.me/glasspanel123" target="_blank" rel="noreferrer">Telegram 交流群</a>
-        <span>数据来源网络，仅供学习维护</span>
-      </div>
+      <div class="foot">浏览器本地执行，仅保存到本机</div>
     </aside>
-
     <main class="main">
-      <header class="topbar">
-        <div><h2 id="page-title">仪表盘</h2><p id="page-subtitle">真实源健康状态与快捷导出</p></div>
-        <div class="top-stats"><span>源 <b id="top-total">-</b></span><span>可用 <b id="top-ok">-</b></span><span>失败 <b id="top-failed">-</b></span></div>
-      </header>
+      <header class="topbar"><div><h2 id="title">仪表盘</h2><p id="subtitle">地址提取、区域筛选、本地检测与结果导出</p></div><span class="badge">公开精简版</span></header>
 
-      <section class="page active" id="page-dashboard">
-        <div class="stat-grid"><div class="stat-card">真实源总数<b id="stat-total">-</b></div><div class="stat-card">可用源<b id="stat-ok">-</b></div><div class="stat-card">失败源<b id="stat-failed">-</b></div><div class="stat-card">返回行数<b id="stat-lines">-</b></div></div>
-        <div class="toolbar"><button class="btn green" id="btn-health">🔄 检测全部真实源</button><select id="health-filter"><option value="all">全部源</option><option value="failed">仅失败</option><option value="slow">慢源优先</option></select><select id="health-group"><option value="all">全部分类</option></select><button class="btn blue" id="btn-health-export">⬇️ 导出检测报告</button><select id="export-mode"><option value="tagged">带备注</option><option value="ip-port">IP:端口</option><option value="ip-only">纯 IP</option><option value="csv">CSV</option><option value="base64">Base64订阅</option></select><button class="btn purple" id="btn-export-all">📦 导出全部可用源</button></div>
-        <div class="artifact-panel">
-          <div class="artifact-head"><div><b>数据产物</b><div class="hint" id="artifact-summary">尚未读取产物</div></div><div class="toolbar mini"><button class="btn green" id="btn-build-dataset">重新生成数据产物</button><button class="btn blue" id="btn-artifacts-refresh">刷新产物列表</button></div></div>
-          <div id="artifact-links" class="artifact-links"></div>
-          <div class="artifact-preview" id="artifact-preview" hidden>
-            <div class="artifact-preview-head">
-              <span id="artifact-preview-title">产物预览</span>
-              <div class="toolbar mini">
-                <button class="btn blue" id="btn-artifact-copy">复制预览</button>
-                <a class="btn purple" id="btn-artifact-open" href="#" target="_blank" rel="noreferrer">打开原文件</a>
-              </div>
-            </div>
-            <pre id="artifact-preview-body"></pre>
-          </div>
-        </div>
-        <div class="artifact-panel">
-          <div class="artifact-head"><div><b>缓存管理</b><div class="hint" id="cache-status">尚未读取缓存</div></div><div class="toolbar mini"><button class="btn blue" id="btn-cache-refresh">刷新缓存状态</button><button class="btn red" id="btn-cache-clear">清空缓存</button></div></div>
-        </div>
-        <div id="health-time" class="hint">尚未检测</div><div id="group-summary" class="group-summary"></div>
-        <div class="table-wrap"><table class="health-table"><thead><tr><th>状态</th><th>分类</th><th>线路</th><th>格式</th><th>行数</th><th>耗时</th><th>数据源</th><th>错误</th><th>操作</th></tr></thead><tbody id="health-body"><tr><td colspan="9" class="hint">点击“检测全部真实源”开始。</td></tr></tbody></table></div>
+      <section id="dashboard" class="page active">
+        <div class="stats"><div>地址总数<b id="stat-total">0</b></div><div>去重后<b id="stat-unique">0</b></div><div>带端口<b id="stat-port">0</b></div><div>检测结果<b id="stat-tested">0</b></div></div>
+        <div class="card"><h3>快速开始</h3><ol><li>在线路提取页粘贴或导入地址。</li><li>使用区域地址页筛选地区或关键词。</li><li>在延迟检测页做浏览器本地连通检测。</li><li>复制或下载整理后的结果。</li></ol></div>
+        <div class="card"><h3>当前地址池</h3><textarea id="pool" spellcheck="false" placeholder="地址池为空。请在线路提取页导入。"></textarea><div class="toolbar"><button id="copy-pool">复制地址池</button><button id="download-pool">下载 TXT</button><button class="danger" id="clear-pool">清空</button></div></div>
       </section>
 
-      <section class="page" id="page-sources">
-        <div class="card"><div class="section-title"><h3>专属节点池</h3><span>选择分类和线路后拉取结果</span></div><div class="toolbar"><input class="grow" id="source-search" placeholder="搜索分类、线路或 URL"><button class="btn blue" id="btn-source-search-clear">清空搜索</button></div><div id="source-search-summary" class="hint">未输入搜索词，显示全部分类。</div><div class="nav-row" id="main-nav"></div><div class="nav-row sub-nav" id="sub-nav"></div><div id="selected-source-info" class="hint">选择线路后显示源状态。</div></div>
-        <div class="card"><div class="section-title"><h3>结果</h3><div class="result-tools"><span id="result-lines" class="hint">0 行</span><button class="btn red" id="btn-clear-result">清空</button><button class="btn green" id="btn-copy">📋 复制</button><button class="btn purple" id="btn-download">⬇️ 下载</button></div></div><textarea id="ip-display" spellcheck="false">请在上方进行操作...</textarea></div>
+      <section id="extract" class="page">
+        <div class="card"><h3>线路提取</h3><p class="hint">支持 IP、域名、IP:端口、URL、CSV、JSON 文本。本页只做浏览器本地解析。</p><textarea id="input" spellcheck="false" placeholder="粘贴地址内容，每行一个或任意文本中包含地址均可。"></textarea><div class="toolbar"><input type="file" id="file" accept=".txt,.csv,.json,.md" /><button id="extract-btn">提取地址</button><button id="dedupe-btn">去重清洗</button><button id="merge-btn">合并到地址池</button></div><pre id="extract-output" class="output"></pre></div>
       </section>
 
-      <section class="page" id="page-global">
-        <div class="card"><div class="section-title"><h3>全球 Edgetunnel 提取</h3><button class="btn" id="btn-region-all">全选 / 清空</button></div><div class="region-grid" id="region-grid"></div><div class="toolbar"><label>提取总数 <input id="global-limit" type="number" min="0" max="500" value="20"></label><button class="btn green" id="btn-global-fetch">⚡ 随机提取选定地区</button></div></div>
+      <section id="region" class="page">
+        <div class="card"><h3>区域地址筛选</h3><p class="hint">按备注、标签、国家代码或关键词筛选当前地址池。</p><div class="toolbar"><input id="region-keyword" placeholder="例如 HK、US、日本、#SG" /><input id="region-limit" type="number" min="0" value="50" /><button id="region-filter">筛选</button><button id="region-random">随机抽样</button><button id="region-apply">写入地址池</button></div><textarea id="region-output" spellcheck="false"></textarea></div>
       </section>
 
-      <section class="page" id="page-speedtest">
-        <div class="card"><div class="section-title"><h3>客户端在线优选</h3><span id="client-info">当前访问IP: 检测中... | 国家: -</span></div><div id="vpn-warning" class="warn">⚠️ 检测到非大陆环境(VPN)，请关闭代理再测，否则测出的是代理节点的延迟！</div><div class="toolbar"><label>IP库源 <select id="st-lib"><option value="artifact">📦 数据产物 all.txt</option><option value="global">🌍 全球节点池</option><option value="cf">CF官方列表</option><option value="display">当前结果</option></select></label><label>端口 <select id="st-port"><option>443</option><option>8443</option><option>2053</option><option>2083</option><option>2087</option><option>2096</option></select></label><label>并发 <select id="st-threads"><option>4</option><option selected>8</option><option>16</option><option>32</option></select></label><label>上限 <input id="st-limit" type="number" min="1" max="1000" value="256" style="width:80px"></label><label>nip域 <input id="st-nip-domain" value="nip.lfree.org" style="width:150px"></label><label>筛选 <select id="st-country"><option value="all">全部显示</option></select></label><label>延迟 ≤ <input id="st-max-latency" type="number" min="0" value="0" style="width:90px"> ms</label><label>保留前 <input id="st-top-n" type="number" min="0" value="20" style="width:80px"></label><label>导出格式 <select id="st-export-format"><option value="tagged">ip:port#地区_ms</option><option value="plain">ip:port</option><option value="csv">CSV</option></select></label></div><div id="st-quality-summary" class="hint">测速结果统计：暂无</div><div class="hint">在线测试使用浏览器访问 hexIP.nip域/cdn-cgi/trace，仅代表 HTTP/TLS 响应延迟；真实下载速度请继续使用 cfst CSV 导入。</div><div class="toolbar"><button class="btn green" id="st-start">▶ 浏览器延迟测试</button><button class="btn red" id="st-stop">⏹ 停止</button><button class="btn purple" id="st-export-candidates">导出候选 IP</button><button class="btn blue" id="st-export-cfst-command">导出 cfst 命令</button><button class="btn purple" id="st-import-cfst">导入测速 CSV</button><button class="btn blue" id="st-save-history">保存历史</button><button class="btn" id="st-toggle-history">测速历史</button><button class="btn red" id="st-clear-history">清空历史</button><input id="st-cfst-file" type="file" accept=".csv,.txt" style="display:none"></div><div id="st-history-panel" class="speed-history-panel" style="display:none"><div class="section-title"><h3>测速历史与稳定性</h3><span id="st-history-summary">暂无历史</span></div><div id="st-history-list"></div></div><div id="st-progress" class="speed-progress"><div id="st-status">准备中...</div><div class="bar"><div id="st-bar"></div></div><div id="st-results"></div><button class="btn blue" id="st-save">导出结果至线路页</button><button class="btn purple" id="st-export-filtered">下载筛选结果</button></div></div>
+      <section id="test" class="page">
+        <div class="card"><h3>浏览器本地检测</h3><p class="hint">检测结果只代表当前浏览器网络环境下的 HTTP/TLS 响应情况。</p><div class="toolbar"><input id="test-limit" type="number" min="1" value="50" /><button id="test-start">开始检测</button><button id="test-stop" class="danger">停止</button><button id="copy-ok">复制可用</button><button id="save-snapshot">保存快照</button></div><div id="test-status" class="hint">等待检测</div><div id="test-results" class="results"></div></div>
       </section>
 
-      <section class="page" id="page-admin">
-        <div class="card"><div class="section-title"><h3>配置中心</h3><span>管理分类、线路、真实源 URL</span></div><div class="toolbar"><button class="btn blue" id="btn-expand">全部展开</button><button class="btn blue" id="btn-collapse">全部折叠</button><button class="btn green" id="btn-add-group">+ 添加主分类</button><button class="btn purple" id="btn-config-export">导出JSON</button><button class="btn purple" id="btn-config-import">导入JSON</button><button class="btn red" id="btn-default">恢复默认真实源</button><button class="btn blue" id="btn-archive-toggle">本地快照档案</button></div><input type="file" id="config-file" accept="application/json,.json" hidden><div id="config-import-preview" class="import-preview" style="display:none"></div><div id="config-save-preview" class="save-preview" style="display:none"></div><div id="config-archive-panel" class="archive-panel" style="display:none"><div class="toolbar mini"><input class="grow" id="archive-search" placeholder="搜索时间或变更摘要"><select id="archive-filter"><option value="all">全部快照</option><option value="removedNodes">包含删除线路</option><option value="changedUrls">包含 URL 变更</option><option value="addedGroups">包含新增分类</option><option value="removedGroups">包含删除分类</option></select><button class="btn blue" id="btn-archive-search-clear">清空搜索</button></div><div id="archive-list"></div></div><div id="admin-list"></div><div class="toolbar end"><button class="btn green" id="btn-save-config">保存配置</button></div></div>
+      <section id="settings" class="page">
+        <div class="card"><h3>配置中心</h3><p class="hint">管理浏览器本地数据。仓库说明和验收内容只保留在 GitHub 仓库文档中，不在页面展示。</p><div class="toolbar"><button id="export-data">导出本地数据</button><input type="file" id="import-data-file" accept="application/json,.json" /><button id="import-data">导入本地数据</button><button class="danger" id="reset-data">清空本地数据</button></div><textarea id="settings-preview" spellcheck="false" placeholder="导入导出结果会显示在这里。"></textarea></div>
       </section>
     </main>
   </div>
-  <script type="module" src="/assets/app.js"></script>
+  <script src="assets/app.js"></script>
 </body>
 </html>
